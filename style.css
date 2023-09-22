@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 84px;
+    flex-shrink: 0;
+    background: #F5980C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #FFF;
+    font-family: 'Lily Script One', cursive;
+    font-size: 28.306px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 58px;
+}
+
+.nevigation a {
+    position: relative;
+    margin-left: 42px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nevigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transform-origin: right;
+}
+
+.nevigation a:hover:after {
+    transform-origin: left;
+    transform: scaleX(1);
+
+}
+
+.nevigation .btnlogin-popup {
+    width: 77px;
+    height: 32px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-left: 38px;
+    margin-right: 78px;
+    color: #F5980C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.nevigation .btnlogin-popup:hover {
+    box-shadow: none;
+    background: rgb(238, 238, 238);
+}
+
+.banner {
+    background: #000;
+    position: relative;
+}
+
+.banner img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 68px 0;
+}
+
+.banner-text {
+    position: absolute;
+    top: 211px;
+    left: 50%;
+    transform: translate(-50%);
+    right: auto;
+    text-align: center;
+}
+
+.Quibeez {
+    color: #F5980C;
+    font-family: Lily Script One;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.RESTAURANT {
+    color: #FFF;
+    font-family: Poppins ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.virtual-text-line {
+    display: flex;
+    justify-content: center;
+    padding: 96px;
+}
+
+.virtual-text-line p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#virtual-line {
+    width: 40px;
+    height: 1px;
+    background: #FFF;
+    margin: 14px;
+}
+
+.left {
+    height: 750px;
+    flex-shrink: 0;
+    background: #F5980C;
+    padding: 84px 0 0 58px;
+    position: relative;
+}
+
+.About {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 64px;
+}
+
+.Welcome {
+    width: 348px;
+    height: 101px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lily Script One;
+    font-size: 90px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.left p {
+    color: #EDEDED;
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#mt-20 {
+    margin-top: 20px;
+}
+
+.btn {
+    color: #F5980C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 145px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 138px;
+    transition: .4s;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: none;
+    background: rgb(238, 238, 238);
+}
+.right-img1 {
+    position: absolute;
+    top: 90px;
+    right: 62px;
+}
+.right-img2 {
+    position: absolute;
+    top: 150px;
+    right: 261px;
+}
+
+.menu-page {
+    height: 750px;
+    flex-shrink: 0;
+    background: #F5980C;
+}
+
+.virtual-text-line-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 23px;
+}
+
+.virtual-text-line-2 h2 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lily Script One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#virtual-line-2 {
+    width: 58px;
+    height: 1px;
+    background: #FFF;
+    margin: 38px 9px 17px 0;
+}
+
+.menu {
+    width: 1068px;
+    height: 551px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    display: flex;
+}
+
+span {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 12px;
+}
+
+.menu-foods {
+    display: flex;
+    margin-top: 54.24px;
+}
+
+.menu-foods p {
+    height: 33px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 20px 0 0 27.24px;
+}
+
+.left-menu {
+    margin-left: 98px;
+}
+
+.left-menu , .right-menu {
+    width: 50%;
+}
+
+.menu-page button {
+    width: 203px;
+    height: 34px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #F5980C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    transition: .4s;
+}
+
+.btn3 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.menu-page button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background: rgb(238, 238, 238);
+}
+
+footer {
+    height: 750px;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(photo/foods4.jpg);
+    position: relative;
+}
+
+.news h1 {
+    color: #FFF;
+    font-family: Lily Script One;
+    font-size: 61.535px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.news h2 {
+    color: #F5980C;
+    font-family: Poppins;
+    font-size: 32.819px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.news p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon img {
+    padding: 36.23px 15.79px 0 0;
+}
+
+.Location h3 , 
+.Contact h3 {
+    color: #F5980C;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Location h2 ,
+.Contact h2 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.Copyright {
+    color: #ffffff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 1280px;
+    height: 37px;
+    flex-shrink: 0;
+    background:linear-gradient(rgb(96, 96, 96, .5),rgb(96, 96, 96, .5)) ;
+    text-align: center;
+    padding-top: 9px;
+    position: absolute;
+    bottom: 19px;
+}
+
